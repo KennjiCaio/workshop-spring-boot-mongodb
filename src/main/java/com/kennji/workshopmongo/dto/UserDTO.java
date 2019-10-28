@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 import com.kennji.workshopmongo.domain.User;
 
+/* DTO (Data Transfer Object) - é uma classe com atributos simples,
+ * utilizada para otimizar a comunicação entre client e servidor.
+ */
 public class UserDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	

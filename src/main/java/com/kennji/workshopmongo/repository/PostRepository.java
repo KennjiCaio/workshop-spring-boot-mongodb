@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import com.kennji.workshopmongo.domain.Post;
-
+//Realizar a troca de dados com o BD. (sendo uma interface)
 @Repository
 public interface PostRepository extends MongoRepository<Post, String>{
 	

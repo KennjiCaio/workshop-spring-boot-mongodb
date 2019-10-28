@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import com.kennji.workshopmongo.domain.Post;
 import com.kennji.workshopmongo.repository.PostRepository;
 import com.kennji.workshopmongo.services.exception.ObjectNotFoundException;
+//Camada de serviço, onde o método do repository é filtrado, selecionado
+//criado a programação defensiva.
 
 @Service
 public class PostService {

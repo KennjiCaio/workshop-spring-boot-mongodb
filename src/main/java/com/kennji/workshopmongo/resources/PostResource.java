@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kennji.workshopmongo.domain.Post;
 import com.kennji.workshopmongo.resources.util.URL;
 import com.kennji.workshopmongo.services.PostService;
-
+//Camada de controladores, recebem o parâmetro pelo request e realiza
+//sua função conforme cada o método definido.
 @RestController
 @RequestMapping(value="/posts")
 public class PostResource {

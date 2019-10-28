@@ -15,6 +15,7 @@ import com.kennji.workshopmongo.dto.CommentDTO;
 import com.kennji.workshopmongo.repository.PostRepository;
 import com.kennji.workshopmongo.repository.UserRepository;
 
+//Classe criada para instanciar os exemplos
 @Configuration
 public class Instantiation implements CommandLineRunner{
 	
